@@ -54,7 +54,7 @@ The script is customizable, efficient, and supports multithreading for faster ex
 3. Ensure you have the necessary permissions to run network scans on your system and network.
 
 ### Execution
-1. Open the script file (`ip_scanner.py`).
+1. Open the script file (`Sweeper.py`).
 2. Modify the following ranges as needed:
    - `third_octet_range`: Defines the third octet range of the IPs to scan (e.g., `range(0, 2)` for `10.145.0.0` to `10.145.1.255`).
    - `fourth_octet_range`: Defines the fourth octet range of the IPs to scan (e.g., `range(200, 255)` for `10.145.x.200` to `10.145.x.254`).
@@ -62,7 +62,7 @@ The script is customizable, efficient, and supports multithreading for faster ex
 
 3. Run the script:
    ```bash
-   python ip_scanner.py
+   python Sweeper.py
    ```
 4. View the output in the terminal for detailed information about each scanned IP.
 
